@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+}
+
+/* Menu Lateral */
+
+.header-left{
+    height: 100%;
+    width: 20%;
+
+    background-color: #1f2933;
+    position: relative;
+}
+
+#logo{
+    padding: 30px;
+}
+
+.nav-left{
+    color: white;
+}
+
+.nav-left li{
+    margin-left: 10px;
+    padding: 10px;
+    list-style: none;
+}
+
+.nav-left li:hover{
+    background-color: #30485f;
+}
+
+#blackboard{
+    margin: 0 16px;
+}
+
+/* Menu do Meio */
+
+#second-body{
+    width: 80%;
+    height: 100%;
+}
+
+.header-center{
+    display: flex;
+    width: 100%;
+}
+
+.header-center div{
+    text-align: center;
+}
+
+#first-nav{
+    margin: 0 0 0 350px;
+    padding: 20px;
+}
+
+#second-nav{
+    padding: 20px;
+}
+
+#second-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+#first-nav:hover, #second-nav:hover{
+    background-color: rgb(211, 211, 211);
+}
+
+#meus-cursos{
+    color: white;
+    background-color: #3C8DBC;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.header-nav{
+    background-color: rgba(214, 214, 214, 0.774);
+    padding: 20px 0;
+}
+
+.header-nav #nav-btn{
+    list-style: none;
+    display: flex;
+}
+
+.img-Icon{
+    width: 50px;
+    display: block;
+    margin: 10px auto;
+    /* border: 1px solid red; */
+}
+
+#nav-btn{
+    justify-content: space-around;
+}
+
+/* Mídia */
+
+.Midia{
+    border: 1px solid gray;
+
+    margin: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+.Midia h3{
+    margin: 10px;
+    color: rgb(53, 53, 53)
+}
+
+.Midia a{
+    text-decoration: none;
+    margin: 10px 8px 20px 5px;
+    color: rgb(53, 53, 53);
+}

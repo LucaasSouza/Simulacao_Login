@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="styleLogin.css">
+        <script src="script.js"></script>
+        <title>Area do Aluno</title>
+    </head>
+    <body>
+        <div id="center-logo">
+            <img src="img/logo_cruzeiro_online (2).png" alt="">
+        </div>
+        <main id="principal">
+            <div id="login-box">
+                <form>
+                    <input required id="name-login" type="text" placeholder="Seu RGM ou CPF">
+                    <input required id="password-login" type="password" placeholder="Senha">
+                </form>
+            </div>
+            <div id="btn">
+                <button id="btn-mostrarSenha" onclick="mostrarSenha()">MOSTRAR SENHA</button>
+                <a id="btn-login" href="#" onclick="login()"><button>ÁREA DO ALUNO</button></a>
+            </div>
+            <div id="links">
+                <p>esqueceu ou deseja efetuar o reset da sua senha?</p>
+                <a id="recupera-RGM" href="#"><p>esqueceu o seu RGM</p></a>
+            </div>
+        </main>
+    </body>
+</html>
